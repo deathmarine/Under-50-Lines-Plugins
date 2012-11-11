@@ -1,0 +1,15 @@
+name: SwearCensor
+main: com.modcrafting.under50.SwearCensor
+version: 0.1
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Swear Censor for bukkit.
+permissions:
+  swearcensor.*:
+    description: Allows the Administration to Full Control
+    default: op
+    children:
+      deadmoney.override: true
+  swearcensor.override:
+    description: Overrides Censor

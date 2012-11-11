@@ -1,0 +1,9 @@
+#How many swears in a single message#
+ViolationLevel: 1
+Dictionary:
+- example
+- can
+- add
+- more
+Replace: '******'
+Command: kick %player% Language
