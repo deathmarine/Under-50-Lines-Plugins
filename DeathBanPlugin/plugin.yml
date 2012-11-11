@@ -1,0 +1,15 @@
+name: DeathBan
+main: com.modcrafting.under50.DeathBan
+version: 0.1 DGAF
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Economy Vault Based Deaths.
+permissions:
+  deathban.*:
+    description: Allows the Administration to Full Control
+    default: op
+    children:
+      deadmoney.override: true
+  deathban.override:
+    description: Overrides Ban When Dying

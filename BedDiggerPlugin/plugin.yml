@@ -1,0 +1,15 @@
+name: BedDigger
+main: com.modcrafting.under50.BedDigger
+version: 0.1
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Plugin for Bukkit.
+permissions:
+  beddigger.*:
+    default: op
+    description: Allows the Administration to Full Control
+    children: 
+      beddigger.use: true
+  beddigger.use:
+    description: Allows the Use of the effect.

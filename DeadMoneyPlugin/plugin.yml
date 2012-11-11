@@ -1,0 +1,14 @@
+name: DeadMoney
+main: com.modcrafting.under50.DeadMoney
+version: 0.2 Rewrite
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Economy Vault Based Deaths.
+permissions:
+  deadmoney.*:
+    description: Allows the Administration to Full Control
+    children:
+    deadmoney.override: true
+  deadmoney.override:
+    description: Overrides Losing Money When Dying

@@ -1,0 +1,18 @@
+#Formatting for multiworld simply follow the template#
+#Standard Minecraft Color Codes Enabled#
+world:
+  percent: false
+  amount: 1000
+  brokeDrops: true
+  playerdeathmessage: '&8[&7Money&8]&7 %amt% was removed from your account on death.'
+  #Wild cards %amt% and %victim% can be used but are not required#
+world_nether:
+  percent: true
+  amount: 75
+  brokeDrops: false
+  playerdeathmessage: '&4[&cMoney&4]&c %amt% percent was removed from your account on death.'
+##Example##
+#skylands:
+#  percent:
+#  amount:
+#  brokeDrops:
