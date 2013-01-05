@@ -1,0 +1,11 @@
+name: PWingTips
+main: com.modcrafting.under50.PWingTips
+version: 0.1
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Scheduled messages.
+permissions:
+  pwingtips.announce:
+    default: true
+    description: Sends messages.
