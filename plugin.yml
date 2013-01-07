@@ -1,17 +1,17 @@
-name: CmdSoundEffect
-main: com.modcrafting.under50.CmdSoundEffects
+name: Durable
+main: com.modcrafting.under50.Durable
 version: 0.1
 authors: [Deathmarine]
 commands:
-  soundeffect:
-    description: plays a sound at the command location.
-    permission: cmdsoundeffect.command
-    usage: /<command> <id|list> <vol> <pitch>
+  durability:
+    description: 
+    permission: durable.command
+    usage: /<command> <get|repair>
 permissions:
-  cmdsoundeffect.*:
+  durable.*:
     default: op
     description: Allows the Administration to Full Control
     children:
-      cmdsoundeffect.command: true
-  cmdsoundeffect.command:
-    description: Allows players to use the /soundeffect command.
+      durable.command: true
+  durable.command:
+    description: Allows players to use the /durability command.

@@ -1,0 +1,17 @@
+name: CmdSoundEffect
+main: com.modcrafting.under50.CmdSoundEffects
+version: 0.1
+authors: [Deathmarine]
+commands:
+  soundeffect:
+    description: plays a sound at the command location.
+    permission: cmdsoundeffect.command
+    usage: /<command> <id|list> <vol> <pitch>
+permissions:
+  cmdsoundeffect.*:
+    default: op
+    description: Allows the Administration to Full Control
+    children:
+      cmdsoundeffect.command: true
+  cmdsoundeffect.command:
+    description: Allows players to use the /soundeffect command.
