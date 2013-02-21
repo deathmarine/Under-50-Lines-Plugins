@@ -4,6 +4,9 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.entity.Snowball;
+import org.bukkit.metadata.FixedMetadataValue;
+import org.bukkit.metadata.Metadatable;
 import org.bukkit.plugin.java.JavaPlugin;
 public class Durable extends JavaPlugin{
 	public boolean onCommand(final CommandSender sender, Command command, String label, final String[] args) {

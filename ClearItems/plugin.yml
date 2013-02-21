@@ -1,0 +1,7 @@
+name: ClearEntities
+main: com.modcrafting.clearitems.ClearItems
+version: 0.1
+commands:
+    killall:
+        description: removes entities
+        usage: /<command> <int>
