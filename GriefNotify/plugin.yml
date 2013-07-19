@@ -1,0 +1,19 @@
+name: GriefNotify
+main: com.modcrafting.under50.GriefNotify
+version: 0.1
+commands:
+    grief:
+        description: Messages Admins
+        usage: /<command>
+        permission: GriefNotfy.Command
+permissions:
+  GriefNotfy.*:
+    default: op
+    description: Allows the Administration to Full Control
+    children:
+      GriefNotfy.Command: true
+      GriefNotfy.Announce: true
+  GriefNotfy.Command:
+    description: Allows the usage of the command
+  GriefNotfy.Announce:
+    description: Allows the reciept of messages
